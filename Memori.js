@@ -2,18 +2,18 @@ const albums = [
     { 
         title: "Album 1", 
         pages: [
-            {note:"Ngày 21 tháng 5 năm 2025, Ngày mình gặp nhau !", image:"images/Em cười xinh.jpg"},
-            {note:"10 ngày bên nhau mình lần đầu tiên cãi nhau ! ", image:"images/10ngay.jpg"},
-            {note:"Một tháng bên nhau vui cũng vui mà buồn cũng buồn ! ", image:"images/Em nói Yêu sau tất cả.jpg"},
-            {note:"Học cách bên nhau !", image:"images/bennhau.jpg"},
-            {note:"Những lời yêu mình nói", image:"images/Mình không hiểu nhau.jpg"},
-            {note:"Chúng ta chưa từng hoàn hảo", image:"images/Quà em gửi.jpg"},
-            {note:"Anh không hiểu em", image:"images/Mình chưa từng  hiểu nhau 2.jpg"},
-            {note:"Em không hiểu anh", image:"images/Mình k hiểu nhau 1.jpg"},
-            {note:"Nhưng chúng ta vẫn bên nhau", image:"images/Quà em gửi.jpg"},
-            {note:"Mình còn có căn nhà chung", image:"images/Nhatui.jpg"},
-            {note:"Mình bên nhau !", image:"images/QuanTrong.jpg"},
-            {note:"Chúc mừng sinh nhật công chúa của anh,13/09/2005 sinh nhật đầu tiên cùng nhau. Bao dung anh bé hơn nhé !!!", image:"images/1.jpg"}
+            {note:"1 !", image:"images/Em cười xinh.jpg"},
+            {note:"2 ! ", image:"images/10ngay.jpg"},
+            {note:"3 ", image:"images/Em nói Yêu sau tất cả.jpg"},
+            {note:"4!", image:"images/bennhau.jpg"},
+            {note:"5", image:"images/Mình không hiểu nhau.jpg"},
+            {note:"6", image:"images/Quà em gửi.jpg"},
+            {note:"7", image:"images/Mình chưa từng  hiểu nhau 2.jpg"},
+            {note:"8", image:"images/Mình k hiểu nhau 1.jpg"},
+            {note:"9", image:"images/Quà em gửi.jpg"},
+            {note:"10", image:"images/Nhatui.jpg"},
+            {note:"11!", image:"images/QuanTrong.jpg"},
+            {note:"12", image:"images/1.jpg"}
         ]
     }
 ]
