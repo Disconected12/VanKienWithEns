@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Book Gift</title>
+<link rel="stylesheet" href="Memori.css">
+</head>
+<body>
+
+<h1>💖 Cuốn Sách Tặng Em 💖</h1>
+<!-- Cuốn sách -->
+<div class="book" id="bookContainer">
+    <div class="page left" id="note"></div>
+    <div class="page right" id="image"></div>
+</div>
+<!-- Nút điều khiển -->
+<div class="buttons">
+    <button id="prevBtn">Prev</button>
+    <button id="nextBtn">Next</button>
+    <button id="fireworkBtn">Màn pháo hoa 🎆</button>
+    <button class="btn" id="musicBtn">🎵 Phát nhạc</button>
+</div>
+<!-- Background canvas -->
+<canvas id="bgCanvas"></canvas>
+  <!-- Nút toggle nhạc -->
+  
+<div>
+  <!-- Audio ẩn -->
+  <audio id="BGM" loop>
+    <source src="Music/11.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<!-- Scripts đặt cuối body để DOM đã load -->
+<script src="background.js"></script>
+<script src="Memori.js"></script>
+
+</body>
+</html>

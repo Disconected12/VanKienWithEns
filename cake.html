@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="cake.css">
+</head>
+<body class="cake-page">
+  <div class="cake-stage">
+    <div class="cake">
+      <!-- Nến -->
+      <div class="candles">
+        <div class="candle"><div class="flame"></div><div class="smoke"></div></div>
+        <div class="candle"><div class="flame"></div><div class="smoke"></div></div>
+        <div class="candle"><div class="flame"></div><div class="smoke"></div></div>
+      </div>
+
+      <!-- Bánh kem -->
+      <div class="layer bottom"></div>
+      <div class="layer middle"></div>
+      <div class="layer top"></div>
+      <div class="strawberries">
+        <div class="strawberry"></div>
+        <div class="strawberry"></div>
+        <div class="strawberry"></div>
+      </div>
+
+      <!-- Nút thổi nến -->
+      <button id="blowBtn" class="btn">Thổi nến 🎂</button>
+    </div>
+  </div>
+
+  <!-- Sao băng -->
+  <div class="star-trail" id="starTrail">
+    <div class="shooting-star">★</div>
+    <div class="shooting-star">★</div>
+    <div class="shooting-star">★</div>
+    <div class="shooting-star">★</div>
+    <div class="shooting-star">★</div>
+  </div>
+
+  <!-- Mây -->
+  <div class="clouds">
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+    <div class="cloud cloud3"></div>
+  </div>
+
+  <!-- Grass -->
+  <div class="grass"></div>
+
+  <!-- Circular decorations -->
+  <div class="decorations">
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+    <div class="circle circle4"></div>
+    <!-- Bubbles -->
+    <div class="bubbles"></div>
+    <div class="sun"></div>
+  </div>
+
+  <!-- Tree -->
+  <div class="tree">
+    <div class="trunk"></div>
+    <div class="foliage"></div>
+  </div>
+
+  <!-- Nút toggle nhạc -->
+  <button class="btn" id="musicBtn">🎵 Phát nhạc</button>
+<div>
+  <!-- Audio ẩn -->
+  <audio id="birthdayMusic" loop>
+    <source src="Music/11.mp3" type="audio/mpeg">
+  </audio>
+</div>
+  <script src="cake.js"></script>
+</body>
+</html>

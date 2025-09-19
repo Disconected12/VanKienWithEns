@@ -1,0 +1,142 @@
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 900px;
+  max-width: 95%;
+  background: #fff;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  overflow: hidden;
+  animation: fadeIn 1.5s ease;
+}
+
+/* Cột trái */
+.left {
+  flex: 1.2;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo .heart {
+  font-size: 24px;
+  color: #E63946;
+  animation: heartbeat 1.5s infinite;
+}
+
+.logo .small {
+  font-size: 12px;
+  color: #777;
+}
+
+h1#title {
+  margin: 20px 0 10px;
+  font-size: 28px;
+  color: #333;
+}
+
+.sub {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.message p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.meta {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #8A3746;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #A94C5C;
+}
+
+.btn.secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background: #c9c9c9;
+}
+
+/* Cột phải */
+.right {
+    width: 50%;                /* nửa cuốn sách bên phải */
+    height: 100%;
+    display: flex;
+    align-items: center;       /* canh ảnh dọc giữa */
+    justify-content: center;   /* canh ảnh ngang giữa */
+    overflow: hidden;          /* tránh ảnh tràn ra ngoài */
+}
+
+.photo {
+    width: 80%;                 /* thu nhỏ so với trước (90% → 80%) */
+    height: 80%;                /* thu nhỏ chiều cao */
+    overflow: hidden;
+    top: 100px;
+    border-radius: 15px;        /* bo góc đẹp */
+    border: 4px solid #ffb6c1;  /* viền màu hồng nhạt */
+    box-shadow: 0 10px 25px rgba(255,100,180,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;        /* vừa khung, giữ tỉ lệ */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 12px;        /* bo góc ảnh bên trong */
+}
+
+
+/* Animation */
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
