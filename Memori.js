@@ -2,8 +2,8 @@ const albums = [
     { 
         title: "Album 1", 
         pages: [
-            {note:"1 !", image:"images/Em cười xinh.jpg"},
-            {note:"2 ! ", image:"images/10ngay.jpg"},
+            {note:"1 !", image:"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa244NXhoa2Noa3BpbXkza2ZrejY1eDhvN2M3ZWM2N3IxNmUyNzFpdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WUAvPkMZLw78SY1z6M/giphy.gif"},
+            {note:"PLSSSSS SCORED ME HIGHER ! ", image:"https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3hmeG92aHp4d3BqZWc2ejRndXBsZmQ4cm52ZG0zeG91ZWNvNG9iaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xAwUd8dmFfJJfmjYde/giphy.gif"},
             {note:"3 ", image:"images/Em nói Yêu sau tất cả.jpg"},
             {note:"4!", image:"images/bennhau.jpg"},
             {note:"5", image:"images/Mình không hiểu nhau.jpg"},
